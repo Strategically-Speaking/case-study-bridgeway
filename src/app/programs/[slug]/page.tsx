@@ -7,7 +7,7 @@ import { getProgramBySlug, getProgramSlugs, getPrograms } from "@/lib/content";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { Button } from "@/components/ui/Button";
 import { ProgramCard } from "@/components/ui/ProgramCard";
-import { placeholderImage } from "@/lib/utils";
+import { programImages } from "@/lib/images";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -28,19 +28,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const seedMap: Record<string, string> = {
-  "workforce-readiness": "workforce123",
-  "digital-literacy": "digital456",
-  "financial-coaching": "finance789",
-  "youth-mentorship": "youth012",
-};
 
 export default async function ProgramDetailPage({ params }: Props) {
   const { slug } = await params;
   const program = getProgramBySlug(slug);
   if (!program) notFound();
 
-  const seed = seedMap[program.slug] ?? program.slug;
+  const imgSrc = programImages[program.slug] ?? programImages["workforce-readiness"];
   const allPrograms = getPrograms().filter((p) => p.slug !== program.slug);
 
   return (
@@ -90,7 +84,7 @@ export default async function ProgramDetailPage({ params }: Props) {
 
             <div className="relative h-64 lg:h-80 rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src={placeholderImage(seed, 900, 600)}
+                src={imgSrc}
                 alt={program.image.alt}
                 fill
                 priority

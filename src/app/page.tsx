@@ -13,7 +13,7 @@ import { SectionLabel } from "@/components/ui/SectionLabel";
 import { StatCard } from "@/components/ui/StatCard";
 import { ProgramCard } from "@/components/ui/ProgramCard";
 import { TestimonialCard } from "@/components/ui/TestimonialCard";
-import { placeholderImage } from "@/lib/utils";
+import { heroImage } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Bridgeway Community Foundation — Building Bridges to Opportunity",
@@ -73,7 +73,7 @@ export default function HomePage() {
             {/* Hero image */}
             <div className="relative h-72 lg:h-96 rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src={placeholderImage("classroom-training", 900, 600)}
+                src={heroImage}
                 alt={page.hero.image!.alt}
                 fill
                 priority

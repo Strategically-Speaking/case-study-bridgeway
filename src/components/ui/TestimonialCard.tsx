@@ -1,12 +1,6 @@
 import Image from "next/image";
-import { placeholderImage } from "@/lib/utils";
+import { testimonialImages } from "@/lib/images";
 import type { Testimonial } from "@/lib/types";
-
-const seedMap: Record<string, string> = {
-  "testimonial-1": "person-denise",
-  "testimonial-2": "person-robert",
-  "testimonial-3": "person-jaylen",
-};
 
 interface TestimonialCardProps {
   testimonial: Testimonial;
@@ -14,12 +8,11 @@ interface TestimonialCardProps {
 }
 
 export function TestimonialCard({ testimonial, featured }: TestimonialCardProps) {
-  const seed = seedMap[testimonial._id] ?? testimonial._id;
+  const imgSrc = testimonialImages[testimonial._id] ?? testimonialImages["testimonial-1"];
 
   if (featured) {
     return (
       <figure className="bg-brand-blue rounded-2xl p-8 md:p-12 text-white max-w-3xl mx-auto">
-        {/* Quote mark */}
         <span
           className="block text-6xl text-brand-teal leading-none mb-4 font-serif"
           aria-hidden="true"
@@ -34,7 +27,7 @@ export function TestimonialCard({ testimonial, featured }: TestimonialCardProps)
         <figcaption className="flex items-center gap-4">
           <div className="relative w-12 h-12 rounded-full overflow-hidden bg-white/20 shrink-0">
             <Image
-              src={placeholderImage(seed, 200, 200)}
+              src={imgSrc}
               alt={testimonial.image.alt}
               fill
               className="object-cover"
@@ -66,7 +59,7 @@ export function TestimonialCard({ testimonial, featured }: TestimonialCardProps)
       <figcaption className="flex items-center gap-3 pt-4 border-t border-gray-100">
         <div className="relative w-10 h-10 rounded-full overflow-hidden bg-gray-100 shrink-0">
           <Image
-            src={placeholderImage(seed, 200, 200)}
+            src={imgSrc}
             alt={testimonial.image.alt}
             fill
             className="object-cover"

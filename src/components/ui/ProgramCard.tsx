@@ -7,7 +7,7 @@ import {
   Users,
   ArrowRight,
 } from "lucide-react";
-import { placeholderImage } from "@/lib/utils";
+import { programImages } from "@/lib/images";
 import type { Program } from "@/lib/types";
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -17,27 +17,20 @@ const iconMap: Record<string, React.ReactNode> = {
   users: <Users size={20} aria-hidden="true" />,
 };
 
-const seedMap: Record<string, string> = {
-  "workforce-readiness": "workforce123",
-  "digital-literacy": "digital456",
-  "financial-coaching": "finance789",
-  "youth-mentorship": "youth012",
-};
-
 interface ProgramCardProps {
   program: Program;
   variant?: "grid" | "list";
 }
 
 export function ProgramCard({ program, variant = "grid" }: ProgramCardProps) {
-  const seed = seedMap[program.slug] ?? program.slug;
+  const imgSrc = programImages[program.slug] ?? programImages["workforce-readiness"];
 
   return (
     <article className="group bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow flex flex-col">
       {/* Image */}
       <div className="relative h-48 overflow-hidden bg-gray-100">
         <Image
-          src={placeholderImage(seed, 800, 400)}
+          src={imgSrc}
           alt={program.image.alt}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-500"
