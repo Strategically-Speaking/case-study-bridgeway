@@ -1,0 +1,421 @@
+{
+  "siteSettings": {
+    "_type": "siteSettings",
+    "_id": "siteSettings",
+    "siteName": "Bridgeway Community Foundation",
+    "tagline": "Building bridges to opportunity",
+    "mission": "Empowering underserved adults through workforce development, digital literacy, and access to essential services.",
+    "email": "info@bridgewayfoundation.org",
+    "phone": "(555) 400-1200",
+    "address": "1240 Community Drive, Suite 100, Metro City, ST 00000",
+    "socialLinks": {
+      "facebook": "https://facebook.com/",
+      "linkedin": "https://linkedin.com/",
+      "instagram": "https://instagram.com/"
+    },
+    "nav": [
+      { "label": "About", "href": "/about" },
+      { "label": "Programs", "href": "/programs" },
+      { "label": "Impact", "href": "/impact" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "navCta": {
+      "label": "Get Involved",
+      "href": "/contact"
+    }
+  },
+
+  "pages": {
+
+    "home": {
+      "_type": "page",
+      "slug": "/",
+      "seo": {
+        "title": "Bridgeway Community Foundation — Building Bridges to Opportunity",
+        "description": "Bridgeway empowers underserved adults through workforce training, digital literacy, and community support programs.",
+        "ogImage": "/images/og-home.jpg"
+      },
+      "hero": {
+        "headline": "Every person deserves a path forward.",
+        "subheadline": "Bridgeway Community Foundation provides workforce training, digital literacy, and essential services to adults who need a real chance — not just a resource list.",
+        "primaryCta": { "label": "See Our Programs", "href": "/programs" },
+        "secondaryCta": { "label": "Our Impact", "href": "/impact" },
+        "image": {
+          "src": "/images/hero.jpg",
+          "alt": "Adult learners in a classroom setting during a workforce training session"
+        }
+      },
+      "missionStrip": {
+        "stat1": { "value": "2,400+", "label": "Adults Served Annually" },
+        "stat2": { "value": "78%", "label": "Job Placement Rate" },
+        "stat3": { "value": "14", "label": "Years in the Community" },
+        "stat4": { "value": "4", "label": "Core Programs" }
+      },
+      "programsSection": {
+        "label": "What We Do",
+        "headline": "Programs built around real barriers.",
+        "subheadline": "Each program is designed around the specific obstacles our community members face — not a one-size-fits-all approach.",
+        "cta": { "label": "View All Programs", "href": "/programs" }
+      },
+      "impactSection": {
+        "label": "Our Impact",
+        "headline": "Real outcomes for real people.",
+        "body": "Since 2012, Bridgeway has helped thousands of adults in our region build the skills, confidence, and connections they need to move forward. Our outcomes are measured in lives changed — not just completions.",
+        "cta": { "label": "See Full Impact Report", "href": "/impact" }
+      },
+      "testimonial": {
+        "quote": "I came to Bridgeway with no computer skills and no job prospects. Eight months later I was hired as an office coordinator at a healthcare system. They didn't just teach me skills — they helped me believe I could do this.",
+        "name": "Denise R.",
+        "program": "Digital Literacy & Workforce Readiness",
+        "image": {
+          "src": "/images/testimonial-denise.jpg",
+          "alt": "Portrait of Denise R., program graduate"
+        }
+      },
+      "finalCta": {
+        "headline": "Ready to make a difference?",
+        "body": "Whether you're looking for support, want to volunteer, or are interested in funding our work — there's a place for you at Bridgeway.",
+        "primaryCta": { "label": "Get Involved", "href": "/contact" },
+        "secondaryCta": { "label": "Donate", "href": "/contact#donate" }
+      }
+    },
+
+    "about": {
+      "_type": "page",
+      "slug": "/about",
+      "seo": {
+        "title": "About Bridgeway Community Foundation",
+        "description": "Learn about Bridgeway's mission, story, and the team driving workforce development and community support in Metro City.",
+        "ogImage": "/images/og-about.jpg"
+      },
+      "hero": {
+        "label": "About Us",
+        "headline": "We started with one question: why is opportunity so unevenly distributed?",
+        "subheadline": "Bridgeway was founded in 2012 by a group of educators and community advocates who believed that access to skills and support shouldn't depend on your zip code."
+      },
+      "story": {
+        "headline": "Our story",
+        "body": "What began as a single workforce training cohort of 18 adults in a church basement has grown into a full-service community foundation serving thousands each year. We've expanded our programs, deepened our community partnerships, and never lost sight of the individual behind every enrollment number.\n\nOur work is grounded in the belief that barriers to opportunity are structural, not personal. When people have access to the right training, tools, and support, they move forward. Every time."
+      },
+      "values": [
+        {
+          "title": "Dignity First",
+          "description": "Every person who walks through our doors is treated with respect. Our programs are designed around participants' strengths, not their deficits."
+        },
+        {
+          "title": "Outcomes Over Outputs",
+          "description": "We measure success by what happens after a program ends — employment, stability, advancement — not just completion rates."
+        },
+        {
+          "title": "Community Accountability",
+          "description": "We are answerable to the community we serve. Our board, staff, and advisors reflect the people and neighborhoods we work with."
+        },
+        {
+          "title": "Continuous Improvement",
+          "description": "We regularly evaluate what's working and what isn't. Our programs evolve based on participant feedback and employment market data."
+        }
+      ],
+      "teamSection": {
+        "label": "Our Team",
+        "headline": "Led by people who've lived the work."
+      }
+    },
+
+    "programs": {
+      "_type": "page",
+      "slug": "/programs",
+      "seo": {
+        "title": "Programs — Bridgeway Community Foundation",
+        "description": "Explore Bridgeway's workforce training, digital literacy, financial coaching, and youth mentorship programs.",
+        "ogImage": "/images/og-programs.jpg"
+      },
+      "hero": {
+        "label": "Our Programs",
+        "headline": "Skills that open doors.",
+        "subheadline": "Each Bridgeway program is designed around the specific barriers our participants face — with wraparound support to help them complete and succeed."
+      }
+    },
+
+    "impact": {
+      "_type": "page",
+      "slug": "/impact",
+      "seo": {
+        "title": "Our Impact — Bridgeway Community Foundation",
+        "description": "See the outcomes and stories behind Bridgeway's community work over 14 years.",
+        "ogImage": "/images/og-impact.jpg"
+      },
+      "hero": {
+        "label": "Our Impact",
+        "headline": "Numbers that represent people.",
+        "subheadline": "Every statistic below is a person who needed support and found it. Here's what 14 years of community work looks like."
+      },
+      "annualHighlight": {
+        "year": "2025",
+        "headline": "2025 by the numbers",
+        "summary": "Last year was our largest year of service. We expanded the Digital Literacy program, launched a new financial coaching cohort, and placed more adults in jobs than any previous year."
+      }
+    },
+
+    "contact": {
+      "_type": "page",
+      "slug": "/contact",
+      "seo": {
+        "title": "Contact — Bridgeway Community Foundation",
+        "description": "Get in touch with Bridgeway to enroll in a program, volunteer, or learn about funding opportunities.",
+        "ogImage": "/images/og-contact.jpg"
+      },
+      "hero": {
+        "label": "Contact Us",
+        "headline": "Let's talk.",
+        "subheadline": "Whether you're looking to enroll, volunteer, partner, or fund our work — reach out and we'll get back to you within one business day."
+      },
+      "contactOptions": [
+        {
+          "title": "Program Enrollment",
+          "description": "Interested in one of our programs? Fill out the form and a program coordinator will reach out within 24 hours.",
+          "icon": "user"
+        },
+        {
+          "title": "Volunteer",
+          "description": "We need mentors, trainers, and administrative support. Tell us about your skills and availability.",
+          "icon": "heart"
+        },
+        {
+          "title": "Partner or Fund",
+          "description": "Foundations, corporations, and government agencies — learn how to support Bridgeway's work.",
+          "icon": "briefcase"
+        }
+      ],
+      "form": {
+        "fields": [
+          { "name": "firstName", "label": "First Name", "type": "text", "required": true },
+          { "name": "lastName", "label": "Last Name", "type": "text", "required": true },
+          { "name": "email", "label": "Email Address", "type": "email", "required": true },
+          { "name": "phone", "label": "Phone Number", "type": "tel", "required": false },
+          { "name": "reason", "label": "How can we help?", "type": "select", "required": true,
+            "options": ["Program Enrollment", "Volunteer", "Partnership", "Funding", "General Inquiry"]
+          },
+          { "name": "message", "label": "Tell us more", "type": "textarea", "required": false }
+        ],
+        "submitLabel": "Send Message",
+        "successMessage": "Thank you — we'll be in touch within one business day."
+      }
+    }
+  },
+
+  "programs": [
+    {
+      "_type": "program",
+      "_id": "program-workforce",
+      "title": "Workforce Readiness Training",
+      "slug": "workforce-readiness",
+      "category": "Employment",
+      "duration": "12 weeks",
+      "format": "In-person, Monday–Thursday",
+      "cost": "Free",
+      "description": "A 12-week intensive program covering resume writing, interview skills, workplace communication, and job search strategy. Participants work with career coaches and employer partners to secure employment before or shortly after graduation.",
+      "fullDescription": "Workforce Readiness Training is Bridgeway's flagship program. Designed for adults who are unemployed or underemployed, the program provides practical job-seeking skills alongside soft skills coaching and direct employer connections.\n\nParticipants receive one-on-one career coaching, access to our employer partner network, and post-placement support for 90 days after hire. Our 78% job placement rate reflects the program's focus on real outcomes.",
+      "outcomes": [
+        "78% of graduates placed in employment within 90 days",
+        "Average starting wage of $18.40/hr among placed graduates",
+        "90-day post-placement support included"
+      ],
+      "eligibility": "Adults 18+ who are unemployed or underemployed. No prior experience required.",
+      "ctaText": "Apply for This Program",
+      "icon": "briefcase",
+      "image": {
+        "src": "/images/program-workforce.jpg",
+        "alt": "Participants in a workforce readiness workshop practicing interview skills"
+      }
+    },
+    {
+      "_type": "program",
+      "_id": "program-digital",
+      "title": "Digital Literacy & Tech Skills",
+      "slug": "digital-literacy",
+      "category": "Technology",
+      "duration": "8 weeks",
+      "format": "Hybrid (in-person + online)",
+      "cost": "Free",
+      "description": "An 8-week program covering computer fundamentals, internet navigation, email, Microsoft Office, and introductory digital tools used in modern workplaces. Designed for adults with little to no computer experience.",
+      "fullDescription": "Digital literacy is a baseline requirement for almost every job today. This program removes that barrier for adults who have been left behind by the digital economy.\n\nParticipants gain hands-on experience with computers, tablets, and workplace software. The hybrid format allows flexibility while maintaining the in-person support many participants need. Upon completion, participants receive a certification and direct referral to the Workforce Readiness program if interested.",
+      "outcomes": [
+        "92% of graduates report feeling confident using a computer for work",
+        "68% enroll in a second Bridgeway program after completion",
+        "Certification recognized by 40+ employer partners"
+      ],
+      "eligibility": "Adults 18+ with limited or no computer experience. Devices provided for program duration.",
+      "ctaText": "Apply for This Program",
+      "icon": "monitor",
+      "image": {
+        "src": "/images/program-digital.jpg",
+        "alt": "Adult learner working on a computer during a digital literacy class"
+      }
+    },
+    {
+      "_type": "program",
+      "_id": "program-financial",
+      "title": "Financial Coaching & Stability",
+      "slug": "financial-coaching",
+      "category": "Financial Wellness",
+      "duration": "6 weeks",
+      "format": "In-person, evenings",
+      "cost": "Free",
+      "description": "A 6-week financial coaching program covering budgeting, debt management, credit building, banking basics, and savings strategies. Offered in the evenings to accommodate working adults.",
+      "fullDescription": "Financial instability is one of the most common barriers to long-term employment success. This program provides practical financial education and one-on-one coaching to help participants build a stable financial foundation.\n\nTopics include building and repairing credit, creating a realistic budget, understanding banking and financial products, and developing an emergency savings plan. Each participant is paired with a certified financial coach for two one-on-one sessions throughout the program.",
+      "outcomes": [
+        "84% of graduates report improved budgeting confidence",
+        "Average credit score increase of 40 points within 6 months",
+        "1:1 coaching sessions with certified financial coaches"
+      ],
+      "eligibility": "Adults 18+. Open to the public — no prior program enrollment required.",
+      "ctaText": "Apply for This Program",
+      "icon": "dollar-sign",
+      "image": {
+        "src": "/images/program-financial.jpg",
+        "alt": "Small group workshop session for financial coaching program participants"
+      }
+    },
+    {
+      "_type": "program",
+      "_id": "program-youth",
+      "title": "Youth Career Mentorship",
+      "slug": "youth-mentorship",
+      "category": "Youth",
+      "duration": "Ongoing (academic year)",
+      "format": "In-person, biweekly",
+      "cost": "Free",
+      "description": "A mentorship program pairing high school juniors and seniors with working professionals for career exploration, goal setting, and post-secondary planning. Runs September through May.",
+      "fullDescription": "Youth Career Mentorship connects high school students from underserved communities with professionals across industries for sustained, relationship-based mentoring.\n\nMentors and mentees meet biweekly to explore career interests, set academic and professional goals, and prepare for post-secondary transitions — whether that's college, trade school, or direct employment. Students also participate in site visits, job shadowing, and a spring career fair.",
+      "outcomes": [
+        "94% of participants graduate high school",
+        "81% enroll in post-secondary education or training within 1 year",
+        "150+ volunteer mentors across 20+ industries"
+      ],
+      "eligibility": "High school juniors and seniors in Metro City public schools. Applications open each August.",
+      "ctaText": "Apply or Volunteer as a Mentor",
+      "icon": "users",
+      "image": {
+        "src": "/images/program-youth.jpg",
+        "alt": "Young student and professional mentor working together at a table"
+      }
+    }
+  ],
+
+  "team": [
+    {
+      "_type": "teamMember",
+      "_id": "team-director",
+      "name": "Angela Washington",
+      "title": "Executive Director",
+      "bio": "Angela has led Bridgeway since 2016. Before joining the Foundation, she spent 12 years in workforce development and adult education with city government. She holds an MPA from State University and serves on the Mayor's Workforce Advisory Council.",
+      "image": {
+        "src": "/images/team-angela.jpg",
+        "alt": "Portrait of Angela Washington, Executive Director"
+      }
+    },
+    {
+      "_type": "teamMember",
+      "_id": "team-programs",
+      "name": "Marcus Torres",
+      "title": "Director of Programs",
+      "bio": "Marcus oversees all four Bridgeway programs and leads curriculum development. He previously managed job training programs at a regional community college and holds a certificate in nonprofit program management.",
+      "image": {
+        "src": "/images/team-marcus.jpg",
+        "alt": "Portrait of Marcus Torres, Director of Programs"
+      }
+    },
+    {
+      "_type": "teamMember",
+      "_id": "team-development",
+      "name": "Priya Nair",
+      "title": "Director of Development",
+      "bio": "Priya leads Bridgeway's fundraising, grants, and corporate partnerships. She has raised over $4M in foundation and government funding over her tenure and holds a BA in Communications and a certificate in nonprofit fundraising.",
+      "image": {
+        "src": "/images/team-priya.jpg",
+        "alt": "Portrait of Priya Nair, Director of Development"
+      }
+    }
+  ],
+
+  "testimonials": [
+    {
+      "_type": "testimonial",
+      "_id": "testimonial-1",
+      "quote": "I came to Bridgeway with no computer skills and no job prospects. Eight months later I was hired as an office coordinator at a healthcare system. They didn't just teach me skills — they helped me believe I could do this.",
+      "name": "Denise R.",
+      "program": "Digital Literacy & Workforce Readiness",
+      "image": {
+        "src": "/images/testimonial-denise.jpg",
+        "alt": "Portrait of Denise R., program graduate"
+      }
+    },
+    {
+      "_type": "testimonial",
+      "_id": "testimonial-2",
+      "quote": "The financial coaching program changed how I think about money entirely. I paid off two credit cards and opened my first savings account. I feel like I'm finally in control.",
+      "name": "Robert M.",
+      "program": "Financial Coaching & Stability",
+      "image": {
+        "src": "/images/testimonial-robert.jpg",
+        "alt": "Portrait of Robert M., program graduate"
+      }
+    },
+    {
+      "_type": "testimonial",
+      "_id": "testimonial-3",
+      "quote": "My mentor at Bridgeway helped me figure out that I wanted to go into healthcare IT. I'm now in a two-year program at Metro Community College. Without that mentorship I honestly don't know where I'd be.",
+      "name": "Jaylen T.",
+      "program": "Youth Career Mentorship",
+      "image": {
+        "src": "/images/testimonial-jaylen.jpg",
+        "alt": "Portrait of Jaylen T., youth program participant"
+      }
+    }
+  ],
+
+  "impactStats": [
+    {
+      "_type": "impactStat",
+      "_id": "stat-1",
+      "value": "2,400+",
+      "label": "Adults Served Annually",
+      "description": "Across all four programs combined"
+    },
+    {
+      "_type": "impactStat",
+      "_id": "stat-2",
+      "value": "78%",
+      "label": "Job Placement Rate",
+      "description": "Workforce Readiness graduates placed within 90 days"
+    },
+    {
+      "_type": "impactStat",
+      "_id": "stat-3",
+      "value": "$18.40",
+      "label": "Average Starting Wage",
+      "description": "Among placed Workforce Readiness graduates"
+    },
+    {
+      "_type": "impactStat",
+      "_id": "stat-4",
+      "value": "14",
+      "label": "Years Serving the Community",
+      "description": "Founded 2012"
+    },
+    {
+      "_type": "impactStat",
+      "_id": "stat-5",
+      "value": "150+",
+      "label": "Volunteer Mentors",
+      "description": "Active in the Youth Mentorship program"
+    },
+    {
+      "_type": "impactStat",
+      "_id": "stat-6",
+      "value": "40+",
+      "label": "Employer Partners",
+      "description": "Hiring from our graduate network"
+    }
+  ]
+}

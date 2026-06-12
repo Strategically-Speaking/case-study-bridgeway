@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", system-ui, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+
+  /* ── Accessible focus ring ─────────────────────────────────────────────── */
+  /* Applied to all interactive elements — never hidden, always visible */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-teal;
+  }
+
+  /* ── Heading scale ─────────────────────────────────────────────────────── */
+  h1 { @apply text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl; }
+  h2 { @apply text-3xl font-bold leading-tight tracking-tight md:text-4xl; }
+  h3 { @apply text-2xl font-semibold leading-snug; }
+  h4 { @apply text-xl font-semibold; }
+}
+
+@layer components {
+  /* ── Section spacing ───────────────────────────────────────────────────── */
+  .section {
+    @apply py-20 px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-narrow {
+    @apply max-w-5xl mx-auto;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* ── Skip to main content (ADA) ────────────────────────────────────────── */
+  .skip-link {
+    @apply absolute -top-full left-4 z-50 bg-brand-teal text-white px-4 py-2 rounded-b font-semibold text-sm transition-all;
+  }
+
+  .skip-link:focus {
+    @apply top-0;
+  }
+}
