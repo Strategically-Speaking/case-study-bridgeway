@@ -132,13 +132,25 @@ export default function ContactPage() {
                 </li>
               </ul>
 
-              {/* Map placeholder */}
-              <div
-                className="mt-8 h-40 bg-gray-100 rounded-xl flex items-center justify-center"
-                role="img"
-                aria-label="Map placeholder — Metro City location"
-              >
-                <p className="text-gray-400 text-sm">Map</p>
+              {/* Map */}
+              <div className="mt-8 rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                <iframe
+                  title="Bridgeway Community Foundation location map"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=-86.6550%2C34.7194%2C-86.6350%2C34.7394&layer=mapnik&marker=34.7294%2C-86.6450"
+                  width="100%"
+                  height="200"
+                  loading="lazy"
+                  aria-label="Map showing 400 Sparkman Drive NW, Huntsville, AL 35816"
+                  style={{ border: 0 }}
+                />
+                <a
+                  href="https://www.openstreetmap.org/?mlat=34.7294&mlon=-86.6450#map=15/34.7294/-86.6450"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-center text-xs text-brand-teal py-1.5 bg-gray-50 hover:bg-gray-100 transition-colors"
+                >
+                  View larger map
+                </a>
               </div>
             </aside>
           </div>
