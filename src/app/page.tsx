@@ -119,8 +119,8 @@ export default function HomePage() {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
-            {programs.map((program) => (
-              <ProgramCard key={program._id} program={program} />
+            {programs.map((program, index) => (
+              <ProgramCard key={program._id} program={program} priority={index === 0} />
             ))}
           </div>
 

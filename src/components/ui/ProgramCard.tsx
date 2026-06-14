@@ -20,9 +20,10 @@ const iconMap: Record<string, React.ReactNode> = {
 interface ProgramCardProps {
   program: Program;
   variant?: "grid" | "list";
+  priority?: boolean;
 }
 
-export function ProgramCard({ program, variant = "grid" }: ProgramCardProps) {
+export function ProgramCard({ program, variant = "grid", priority = false }: ProgramCardProps) {
   const imgSrc = programImages[program.slug] ?? programImages["workforce-readiness"];
 
   return (
@@ -33,6 +34,8 @@ export function ProgramCard({ program, variant = "grid" }: ProgramCardProps) {
           src={imgSrc}
           alt={program.image.alt}
           fill
+          priority={priority}
+          loading={priority ? "eager" : "lazy"}
           className="object-cover group-hover:scale-105 transition-transform duration-500"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
