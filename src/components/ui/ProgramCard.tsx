@@ -23,8 +23,13 @@ interface ProgramCardProps {
   priority?: boolean;
 }
 
-export function ProgramCard({ program, variant = "grid", priority = false }: ProgramCardProps) {
-  const imgSrc = programImages[program.slug] ?? programImages["workforce-readiness"];
+export function ProgramCard({
+  program,
+  variant = "grid",
+  priority = false,
+}: ProgramCardProps) {
+  const imgSrc =
+    programImages[program.slug] ?? programImages["workforce-readiness"];
 
   return (
     <article className="group bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow flex flex-col">

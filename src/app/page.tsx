@@ -48,7 +48,9 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Text */}
             <div>
-              <SectionLabel light>Workforce · Digital Literacy · Community</SectionLabel>
+              <SectionLabel light>
+                Workforce · Digital Literacy · Community
+              </SectionLabel>
               <h1 id="hero-heading" className="text-white mb-6">
                 {page.hero.headline}
               </h1>
@@ -80,7 +82,10 @@ export default function HomePage() {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-blue/20 to-transparent" aria-hidden="true" />
+              <div
+                className="absolute inset-0 bg-gradient-to-t from-brand-blue/20 to-transparent"
+                aria-hidden="true"
+              />
             </div>
           </div>
         </div>
@@ -120,12 +125,20 @@ export default function HomePage() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
             {programs.map((program, index) => (
-              <ProgramCard key={program._id} program={program} priority={index === 0} />
+              <ProgramCard
+                key={program._id}
+                program={program}
+                priority={index === 0}
+              />
             ))}
           </div>
 
           <div className="text-center">
-            <Button href={page.programsSection.cta.href} variant="secondary" size="lg">
+            <Button
+              href={page.programsSection.cta.href}
+              variant="secondary"
+              size="lg"
+            >
               {page.programsSection.cta.label}
             </Button>
           </div>
@@ -133,10 +146,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Impact section ────────────────────────────────────────────────── */}
-      <section
-        aria-labelledby="impact-heading"
-        className="section bg-white"
-      >
+      <section aria-labelledby="impact-heading" className="section bg-white">
         <div className="container-narrow">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
